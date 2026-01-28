@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1{
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper{
+  height: 500px;
+  width: 100%;
+  background-color: rgb(180, 151, 235);
+}
+.addTodo h2{
+  font-size: 30px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.addTodo input{
+  padding: 5px;
+  margin-left: 10px;
+  margin-top: 10px;
+  outline: none;
+}
+.addTodo button{
+  padding: 5px;
+  margin-left: 5px;
+  background-color: blueviolet;
+  color: wheat;
+  border: none;
+}
+.todo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  width: 50px;
+  padding-top: 20px;
+}
+.text{
+  padding-left: 5px;
+}
+.buttons{
+  display: flex;
+  gap: 10px;
+}
+.buttons button{
+  padding: 5px;
+  background-color: blueviolet;
+  color: wheat;
+  border: none;
+}
